@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe DApp</h1>
+    <div id="game-board">
+        <div class="row">
+            <div class="cell" id="cell00" onclick="makeMove(0,0)">x</div>
+            <div class="cell" id="cell01" onclick="makeMove(0,1)">o</div>
+            <div class="cell" id="cell02" onclick="makeMove(0,2)">x</div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell10" onclick="makeMove(1,0)">o</div>
+            <div class="cell" id="cell11" onclick="makeMove(1,1)"></div>
+            <div class="cell" id="cell12" onclick="makeMove(1,2)"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell20" onclick="makeMove(2,0)"></div>
+            <div class="cell" id="cell21" onclick="makeMove(2,1)"></div>
+            <div class="cell" id="cell22" onclick="makeMove(2,2)"></div>
+        </div>
+    </div>
+    <div id="message"></div>
+</body>
