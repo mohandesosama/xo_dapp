@@ -10,12 +10,12 @@
     <h1>Tic-Tac-Toe DApp</h1>
     <div id="game-board">
         <div class="row">
-            <div class="cell" id="cell00" onclick="makeMove(0,0)">x</div>
-            <div class="cell" id="cell01" onclick="makeMove(0,1)">o</div>
-            <div class="cell" id="cell02" onclick="makeMove(0,2)">x</div>
+            <div class="cell" id="cell00" onclick="makeMove(0,0)"></div>
+            <div class="cell" id="cell01" onclick="makeMove(0,1)"></div>
+            <div class="cell" id="cell02" onclick="makeMove(0,2)"></div>
         </div>
         <div class="row">
-            <div class="cell" id="cell10" onclick="makeMove(1,0)">o</div>
+            <div class="cell" id="cell10" onclick="makeMove(1,0)"></div>
             <div class="cell" id="cell11" onclick="makeMove(1,1)"></div>
             <div class="cell" id="cell12" onclick="makeMove(1,2)"></div>
         </div>
@@ -26,4 +26,6 @@
         </div>
     </div>
     <div id="message"></div>
+    <div id="current-player"></div>
+    <script src="app.js"></script>
 </body>
