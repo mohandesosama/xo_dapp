@@ -1,2 +1,2 @@
-# xo_dapp
-XO DApp Using Ethereum Smart Contracts For Gamers
+# Tic-Tac-Toe Game DApp
+X-O DApp Using Ethereum Smart Contracts For Gamers
